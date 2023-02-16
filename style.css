@@ -1,0 +1,47 @@
+#adicionar {
+    width: 300px;
+    border: 1px solid blue;
+}
+
+.buttonbox {
+    border: 1px solid red;
+    padding: 5px;
+    height: 100%;
+}
+
+.boxbutton {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.box {
+    align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.divtext {
+    align-items: center;
+    display: flex;
+    height: 72px;
+    min-width: 100px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+p {
+    margin: 10px;
+}
